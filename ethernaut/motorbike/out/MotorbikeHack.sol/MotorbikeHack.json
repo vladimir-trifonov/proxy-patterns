@@ -1,0 +1,277 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "initialize",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x6080604052348015600f57600080fd5b50606a80601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80638129fc1c14602d575b600080fd5b603233ff5b00fea2646970667358221220d0f6d3b98f712862f87af7858434499b8f84e1fc72998dd7d297074018cbbc2664736f6c634300080f0033",
+    "sourceMap": "57:112:23:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80638129fc1c14602d575b600080fd5b603233ff5b00fea2646970667358221220d0f6d3b98f712862f87af7858434499b8f84e1fc72998dd7d297074018cbbc2664736f6c634300080f0033",
+    "sourceMap": "57:112:23:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;86:81;;148:10;127:33;86:81;",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "initialize()": "8129fc1c"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.15+commit.e14f2714\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"initialize\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/MotorbikeHack.sol\":\"MotorbikeHack\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\",\":openzeppelin/=lib/openzeppelin-contracts/contracts/\"]},\"sources\":{\"src/MotorbikeHack.sol\":{\"keccak256\":\"0x981317f7765288858f5ac4ca62a4471646846a54f59fe1fd1aac3ce03b343c74\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8745d8eecbc9db1d06b699d7639400a85e8eaa030a8e09337df164ce57cb4801\",\"dweb:/ipfs/QmX1aQfrVoxCWy948nKEyLncPTHcgGGEq3Cp8bBPzJvvG1\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.15+commit.e14f2714"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "initialize"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+        ":forge-std/=lib/forge-std/src/",
+        ":openzeppelin-contracts/=lib/openzeppelin-contracts/",
+        ":openzeppelin/=lib/openzeppelin-contracts/contracts/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/MotorbikeHack.sol": "MotorbikeHack"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/MotorbikeHack.sol": {
+        "keccak256": "0x981317f7765288858f5ac4ca62a4471646846a54f59fe1fd1aac3ce03b343c74",
+        "urls": [
+          "bzz-raw://8745d8eecbc9db1d06b699d7639400a85e8eaa030a8e09337df164ce57cb4801",
+          "dweb:/ipfs/QmX1aQfrVoxCWy948nKEyLncPTHcgGGEq3Cp8bBPzJvvG1"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/MotorbikeHack.sol",
+    "id": 43611,
+    "exportedSymbols": {
+      "MotorbikeHack": [
+        43610
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:138:23",
+    "nodes": [
+      {
+        "id": 43597,
+        "nodeType": "PragmaDirective",
+        "src": "32:23:23",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 43610,
+        "nodeType": "ContractDefinition",
+        "src": "57:112:23",
+        "nodes": [
+          {
+            "id": 43609,
+            "nodeType": "FunctionDefinition",
+            "src": "86:81:23",
+            "nodes": [],
+            "body": {
+              "id": 43608,
+              "nodeType": "Block",
+              "src": "117:50:23",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "expression": {
+                              "id": 43603,
+                              "name": "msg",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": -15,
+                              "src": "148:3:23",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_magic_message",
+                                "typeString": "msg"
+                              }
+                            },
+                            "id": 43604,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberName": "sender",
+                            "nodeType": "MemberAccess",
+                            "src": "148:10:23",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          ],
+                          "id": 43602,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "nodeType": "ElementaryTypeNameExpression",
+                          "src": "140:8:23",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_address_payable_$",
+                            "typeString": "type(address payable)"
+                          },
+                          "typeName": {
+                            "id": 43601,
+                            "name": "address",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "140:8:23",
+                            "stateMutability": "payable",
+                            "typeDescriptions": {}
+                          }
+                        },
+                        "id": 43605,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "140:19:23",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address_payable",
+                          "typeString": "address payable"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address_payable",
+                          "typeString": "address payable"
+                        }
+                      ],
+                      "id": 43600,
+                      "name": "selfdestruct",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": -21,
+                      "src": "127:12:23",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_selfdestruct_nonpayable$_t_address_payable_$returns$__$",
+                        "typeString": "function (address payable)"
+                      }
+                    },
+                    "id": 43606,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "127:33:23",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 43607,
+                  "nodeType": "ExpressionStatement",
+                  "src": "127:33:23"
+                }
+              ]
+            },
+            "functionSelector": "8129fc1c",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "initialize",
+            "nameLocation": "95:10:23",
+            "parameters": {
+              "id": 43598,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "105:2:23"
+            },
+            "returnParameters": {
+              "id": 43599,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "117:0:23"
+            },
+            "scope": 43610,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "MotorbikeHack",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          43610
+        ],
+        "name": "MotorbikeHack",
+        "nameLocation": "66:13:23",
+        "scope": 43611,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 23
+}
